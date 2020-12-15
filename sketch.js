@@ -6,8 +6,8 @@ let words = [];
 let wordFall = setInterval(makeWord, 100);
 let letters = ['F', 'R', 'E', 'E','D','O','M','y','a','u']
 function setup() {
-  createCanvas(1000, 500);
-  textFont('Georgia', 18);
+  createCanvas(window.outerWidth, window.outerHeight);
+  textFont('Georgia', 43);
   textAlign(CENTER, CENTER);
   textStyle(BOLD);
   rectMode(CENTER);
