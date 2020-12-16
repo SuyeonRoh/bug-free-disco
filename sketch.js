@@ -41,7 +41,7 @@ class Word {
   constructor() {
     this.x = random(width);
     this.y = 15;
-    this.speed = 1;
+    this.speed = 2;
     this.l = random(letters);
   }
 
